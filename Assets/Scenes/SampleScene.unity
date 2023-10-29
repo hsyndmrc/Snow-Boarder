@@ -462,6 +462,7 @@ GameObject:
   - component: {fileID: 1103992333}
   - component: {fileID: 1103992337}
   - component: {fileID: 1103992338}
+  - component: {fileID: 1103992341}
   - component: {fileID: 1103992339}
   - component: {fileID: 1103992340}
   m_Layer: 0
@@ -610,6 +611,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248a06883dc48be4fa80163e516c4cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1103992341
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103992332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.36, y: 0.48}
+  serializedVersion: 2
+  m_Radius: 0.343
 --- !u!1 &1333453152
 GameObject:
   m_ObjectHideFlags: 0
