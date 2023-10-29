@@ -232,7 +232,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5320,7 +5320,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5376,7 +5376,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -10273,6 +10273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadSceneDelay: 0.5
+  crashEffect: {fileID: 581236239}
 --- !u!58 &1103992341
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10474,6 +10475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadSceneDelay: 1.5
+  finishEffect: {fileID: 72948487}
 --- !u!1 &1670109693
 GameObject:
   m_ObjectHideFlags: 0
