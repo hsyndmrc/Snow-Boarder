@@ -10,7 +10,7 @@ public class FinishLine : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            Debug.Log("You Finished.!");
+            SceneManager.LoadScene(0);
         }
     }
 }
