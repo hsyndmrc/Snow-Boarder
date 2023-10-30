@@ -21,6 +21,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         RotatePlayer();
+        RespondToBoost();
+    }
+
+    void RespondToBoost()
+    {
+
     }
 
 
