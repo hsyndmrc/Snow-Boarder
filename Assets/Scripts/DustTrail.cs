@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class DustTrail : MonoBehaviour
 {
-    void Start()
-    {
 
+    [SerializeField] ParticleSystem dustParticles;
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            dustParticles.Play();
+        }
     }
 
-    void Update()
+    void OnCollisionExit2D(Collision2D other)
     {
-
+        if (other.gameObject.tag == "Ground")
+        {
+            dustParticles.Stop();
+        }
     }
 }
