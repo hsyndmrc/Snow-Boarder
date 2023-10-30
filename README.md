@@ -11,5 +11,4 @@ GAME PICTURES
 
 [![image](https://r.resimlink.com/nh6xw.png)](https://resimlink.com/nh6xw)
 
-
 [![image](https://r.resimlink.com/LdCOy1.png)](https://resimlink.com/LdCOy1)
